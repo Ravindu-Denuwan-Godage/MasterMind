@@ -1,0 +1,26 @@
+What Is an Email Server? Let’s Analyze the Definition
+-----------------------------------------------------------
+
+An email server, also called a mail server, is essentially a computer system that sends and receives emails. When you send an email, it goes through a series of servers to reach its final destination. While this process is lightning fast and efficient (thanks, technology!), there is a significant amount of complexity behind sending and receiving emails.
+
+Email communication involves complex protocols and processes. Usually, the email server is a computer or machine that has a complete system with different applications or services. Based on the type of action they perform, email servers can be categorized into incoming and outgoing email servers.
+
+
+
+For a computer system to function as a mail server, it must have mail server software installed. This software then allows the system administrator to manage and create email accounts for any of the domains hosted on the server.
+
+Alongside that, you have protocols. Protocols are networking-software rules that allow computers to connect to networks everywhere so you may shop online, send emails, and browse the internet freely. These protocols are a vital component of your networking activity.
+
+SMTP
+-----
+
+The SMTP protocol handles any outgoing mail requests and sends emails. So SMTP is short for Simple Mail Transfer Protocol and is the outgoing mail server. We can think of SMTP as moving your email on and across networks. Without it, your emails wouldn’t go anywhere.
+
+POP / IMAP
+-----------
+
+For incoming mail servers, there are two main varieties — POP3 and IMAP. POP3 servers, short for Post Office Protocol version 3, are best known for fetching the content of the Inbox on your computer’s hard drive. IMAP servers, short for Internet Message Access Protocol, are used for o way synchronization of the entire mailbox.
+
+IMAP can also function as a mail server’s alternate protocol retrieval program. And although there are newer POP versions, which offer more features, the preferred protocol remains POP3 because it’s simple, has a high rate of success, and gets the job done with a minimum of errors. It even allows you to download your emails and read them while offline.
+
+Without one of these protocols working correctly, your email would not reach your computer.

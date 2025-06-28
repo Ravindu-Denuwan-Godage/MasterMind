@@ -1,0 +1,8 @@
+What Is a Trojan Horse Virus?
+------------------------------------
+
+A Trojan Horse Virus is a type of malware that downloads onto a computer disguised as a legitimate program. The delivery method typically sees an attacker use social engineering to hide malicious code within legitimate software to try and gain users' system access with their software.
+
+A simple way to answer the question "what is Trojan" is it is a type of malware that typically gets hidden as an attachment in an email or a free-to-download file, then transfers onto the user’s device. Once downloaded, the malicious code will execute the task the attacker designed it for, such as gain backdoor access to corporate systems, spy on users’ online activity, or steal sensitive data.
+
+Indications of a Trojan being active on a device include unusual activity such as computer settings being changed unexpectedly.
