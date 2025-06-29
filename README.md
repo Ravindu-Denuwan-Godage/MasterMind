@@ -67,11 +67,11 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
    - 📦 Tools (e.g., PHP backdoors, wordlists)
    - 🔗 External resources for deeper learning
 
-##### 🔐 Level Login Page
+#### 🔐 List of all Help Pages available in the MasterMind web app
 ![Image](https://github.com/user-attachments/assets/e4d50aed-8117-4e0f-bdb4-9065343aa965)
 
-
-📷 _Please attach a screenshot of a Level Login Page_
+#### 📷 Level 01 Login Page
+![Image](https://github.com/user-attachments/assets/af9fe152-709d-484c-8d9d-64cf9fc32f71)
 
 ---
 
