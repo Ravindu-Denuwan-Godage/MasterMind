@@ -1,10 +1,8 @@
-# MasterMind
-A beginner-friendly local CTF platform to learn Web Application Security
 # 🧠 MasterMind – Beginner Web Application CTF
 
-Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag (CTF)** platform. This is a self-paced, hands-on training web app specifically designed for **absolute beginners** with **no prior experience in web security or programming**.
+Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag (CTF)** platform. This self-paced web application is specifically designed for **absolute beginners** — no prior experience in web development or cybersecurity is required.
 
-> 🚩 Learn to hack – the safe and legal way – by exploiting intentionally vulnerable web pages and uncovering hidden flags. After solving all 10 challenges, you'll earn a certificate of completion!
+> 🎯 Learn ethical hacking in a legal, safe, and hands-on environment by discovering hidden flags in vulnerable web pages. On successful completion of all levels, you'll receive a certificate of achievement!
 
 ---
 
@@ -24,22 +22,20 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
 
 ## 📖 About the Project
 
-**MasterMind** is a Capture the Flag (CTF) style web application created to help **absolute beginners** explore fundamental web vulnerabilities in a safe, structured way.
+**MasterMind** is a hands-on Capture the Flag (CTF) web application that simulates real-world web vulnerabilities. Each level presents a challenge involving a specific type of vulnerability. Your goal is to exploit each vulnerability, find the hidden flag, and progress to the next level.
 
-Each level presents a unique vulnerability. Players must understand, exploit, and capture the **flag** (a hidden code) to progress to the next level. This learning-by-doing format is ideal for those new to cybersecurity.
+> 🚫 The chatroom feature has been removed from this version of the application.
 
 ---
 
 ## 🌟 Features
 
-- 🔐 10 Beginner-Friendly Web Challenges
-- 🎯 Step-by-step difficulty progression (Level 1 → 10)
-- 📑 In-app Help Pages for every level
-- 🏁 Completion Certificate for motivation
-- 🛠️ Tools & resources included for learning
-- ✅ 100% Offline and free to use
-
-> ❌ **Note:** The chatroom feature has been **removed** from the project.
+- 🔓 10 intentionally vulnerable web levels
+- 📈 Progressive difficulty (Level 1 is easiest, Level 10 is hardest)
+- 🧩 Each level has its own login portal
+- 🆘 Dedicated help page for every level
+- 🏆 Certificate of completion after Level 10
+- 🧰 Includes tools & resources (wordlists, backdoors, etc.)
 
 ---
 
@@ -47,64 +43,88 @@ Each level presents a unique vulnerability. Players must understand, exploit, an
 
 | Level | Vulnerability Type                              | Description |
 |-------|--------------------------------------------------|-------------|
-| 01    | Information Leakage (Basic)                      | Flag in page source |
-| 02    | Information Leakage (Right-click disabled)       | Use dev tools/proxies |
-| 03    | Directory Traversal                              | Access hidden directories |
-| 04    | Dictionary Attack                                | Crack weak credentials |
-| 05    | Caesar Cipher Encryption                         | Decrypt with Caesar cipher |
-| 06    | Brute-Force Permutations                         | Try all letter combos |
-| 07    | File Upload Vulnerability                        | Upload & use a PHP backdoor |
-| 08    | AES + Weak Key Protection                        | Decrypt multi-layer encoded key |
-| 09    | SQL Injection                                    | Inject query via input field |
-| 10    | Cross-site Scripting (XSS)                       | Inject JS to steal flag |
-
-> 🧩 Each level includes a **username** (displayed) and requires the **correct flag** to log in to the next level.
+| 01    | Information Leakage                              | Flag in page source code |
+| 02    | Info Leakage (Right-click disabled)              | View source via browser tools or proxy |
+| 03    | Directory Traversal                              | Navigate server directories |
+| 04    | Dictionary Attack                                | Crack weak credentials with a wordlist |
+| 05    | Caesar Cipher Encryption                         | Decrypt Caesar-shifted flag |
+| 06    | Brute-Force Permutations                         | Guess all permutations to find the flag |
+| 07    | File Upload Vulnerability                        | Upload and access a PHP backdoor |
+| 08    | AES Encryption + Weak Key Protection             | Decrypt layered encrypted key (MD5 + Base64 + Caesar) |
+| 09    | SQL Injection                                    | Inject SQL to extract flag from DB |
+| 10    | Cross-site Scripting (XSS)                       | Inject JS to retrieve flag via tool |
 
 ---
 
 ## ⚙️ How It Works
 
-1. Begin at **Level 01**.
-2. Each level gives you:
-   - A **username**
-   - A **login form** for the flag
-3. Exploit the level’s vulnerability to find the **flag**.
-4. Submit the correct username + flag → progress to next level.
-5. On completing **Level 10**, receive a **customized certificate** of success!
+1. Start at **Level 01**
+2. Use the given **username** and exploit the vulnerability to find the **flag**
+3. Enter username and flag on the login form to unlock the next level
+4. Each level's Help Page provides:
+   - 💡 Explanation of the vulnerability
+   - 🧪 Demonstration of exploitation
+   - 📦 Tools (e.g., PHP backdoors, wordlists)
+   - 🔗 External resources for deeper learning
 
-💡 Every level has a **Help Page** containing:
-
-- Detailed explanation of the vulnerability
-- Demo of the attack
-- Downloadable tools/resources
-- External links for further reading
-
-📷 _Please attach an image of a sample Help Page_  
-📷 _Please attach an image of a Level Login Page_
+📷 _Please attach a screenshot of a sample Help Page_  
+📷 _Please attach a screenshot of a Level Login Page_
 
 ---
 
 ## 🚀 Getting Started
 
-This section helps you set up the MasterMind CTF on your local machine using **XAMPP**.
+Follow these steps to set up and run the MasterMind web application on your local machine.
 
-### 1️⃣ Download & Install XAMPP
+### 1️⃣ Install XAMPP (or any PHP-supported web server)
 
-- Download from: [https://www.apachefriends.org](https://www.apachefriends.org)
-- Install XAMPP
-- Launch it and **start Apache and MySQL**
+- Download from: https://www.apachefriends.org/index.html
+- Install and open XAMPP
+- Start **Apache** and **MySQL** modules
 
-### 2️⃣ Move MasterMind Project to `htdocs`
+### 2️⃣ Move Project to `htdocs` Folder
 
-- Download or clone the MasterMind repo
-- Go to `C:/xampp/htdocs/`
-- Paste the **MasterMind** folder here
+- Download or clone this repository
+- Go to: `C:/xampp/htdocs/`
+- Paste the entire `MasterMind` project folder here
 
 ### 3️⃣ Import the Database
 
-- Open your browser → go to: `http://127.0.0.1/dashboard/`
-- Click **phpMyAdmin**
-- Create a new database:
+- Open browser → `http://127.0.0.1/dashboard/`
+- Click on **phpMyAdmin**
+- Create a new database named:
 
-```text
 mastermind
+
+- Inside the project, go to:
+
+database_to_import/
+
+
+- Import the `.sql` file into the newly created `mastermind` database
+
+📷 _Please attach a screenshot of the import screen in phpMyAdmin_
+
+### 4️⃣ Launch the Web Application
+
+- Visit: `http://127.0.0.1/MasterMind/` in your browser
+- The MasterMind CTF Web App should load successfully
+
+🎉 You're ready to start your CTF journey!
+
+---
+
+## 🖼️ Screenshots
+
+📷 _Attach these screenshots in your GitHub repo:_
+
+- MasterMind Home Page  
+- One Level's Login Page  
+- Help Page Example  
+- Completion Certificate  
+- File Structure Overview
+
+---
+
+## 📂 Folder Structure
+
