@@ -70,7 +70,7 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
 #### 🔐 List of all Help Pages available in the MasterMind web app
 ![Image](https://github.com/user-attachments/assets/e4d50aed-8117-4e0f-bdb4-9065343aa965)
 
-#### 📷 Level 01 Login Page
+#### 📷 Level 01 CTF Challenge
 ![Image](https://github.com/user-attachments/assets/af9fe152-709d-484c-8d9d-64cf9fc32f71)
 
 ---
@@ -99,7 +99,8 @@ Follow these steps to set up and run the MasterMind web application on your loca
 - Inside the project, go to "database_to_import" folder
 - Import the `mastermind.sql` file into the newly created `mastermind` database
 
-📷 _Please attach a screenshot of the import screen in phpMyAdmin_
+#### 📘 phpMyAdmin – MasterMind database setup view
+![Image](https://github.com/user-attachments/assets/ecad9937-9113-4a93-8c66-8f85131cd827)
 
 ### 4️⃣ Launch the Web Application
 
@@ -107,18 +108,6 @@ Follow these steps to set up and run the MasterMind web application on your loca
 - The MasterMind CTF Web App should load successfully
 
 🎉 You're ready to start your CTF journey!
-
----
-
-## 🖼️ Screenshots
-
-📷 _Attach these screenshots in your GitHub repo:_
-
-- MasterMind Home Page  
-- One Level's Login Page  
-- Help Page Example  
-- Completion Certificate  
-- File Structure Overview
 
 ---
 
