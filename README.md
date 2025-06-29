@@ -1,5 +1,7 @@
 # 🧠 MasterMind – Beginner Web Application CTF
 
+![Image](https://github.com/user-attachments/assets/de043162-6f60-46f8-bbe7-49805d8d25ed)
+
 Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag (CTF)** platform. This self-paced web application is specifically designed for **absolute beginners** — No advanced experience in web development or cybersecurity is required, though a basic familiarity with browsers or tools like Inspect Element will be helpful.
 
 > 🎯 Learn ethical hacking in a legal, safe, and hands-on environment by discovering hidden flags in vulnerable web pages. On successful completion of all levels, you'll receive a certificate of achievement!
