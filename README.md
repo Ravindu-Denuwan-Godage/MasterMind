@@ -67,7 +67,7 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
    - 🔗 External resources for deeper learning
 
 #### 📘 List of all Help Pages available in the MasterMind web app
-![Image](https://github.com/user-attachments/assets/e4d50aed-8117-4e0f-bdb4-9065343aa965)
+![Image](https://github.com/user-attachments/assets/4ed719f2-a8e0-411f-a6a0-6ae5e97e4c5e)
 
 #### 📷 Level 01 CTF Challenge
 ![Image](https://github.com/user-attachments/assets/af9fe152-709d-484c-8d9d-64cf9fc32f71)
