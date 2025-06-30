@@ -15,7 +15,6 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
 - [Challenges & Vulnerabilities](#challenges--vulnerabilities)
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
 - [Folder Structure](#folder-structure)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -169,8 +168,7 @@ Upon completing all 10 levels, players receive a digital certificate to mark the
 
 For questions or feedback:
 
-- GitHub Issues: [Open here](https://github.com/YOUR_USERNAME/mastermind/issues)
-- Email: youremail@example.com
+- GitHub Issues: [Open here](https://github.com/Ravindu-Denuwan-Godage/mastermind/issues)
 
 ---
 
