@@ -11,7 +11,7 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
 ## 📚 Table of Contents
 
 - [About the Project](#about-the-project)
-- [Features](##features)
+- [Features](#features)
 - [Challenges & Vulnerabilities](#challenges--vulnerabilities)
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
