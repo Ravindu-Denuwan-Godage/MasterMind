@@ -67,7 +67,7 @@ Welcome to **MasterMind**, a beginner-focused **Web Application Capture The Flag
    - 📦 Tools (e.g., PHP backdoors, wordlists)
    - 🔗 External resources for deeper learning
 
-#### 🔐 List of all Help Pages available in the MasterMind web app
+#### 📘 List of all Help Pages available in the MasterMind web app
 ![Image](https://github.com/user-attachments/assets/e4d50aed-8117-4e0f-bdb4-9065343aa965)
 
 #### 📷 Level 01 CTF Challenge
@@ -99,7 +99,7 @@ Follow these steps to set up and run the MasterMind web application on your loca
 - Inside the project, go to "database_to_import" folder
 - Import the `mastermind.sql` file into the newly created `mastermind` database
 
-#### 📘 phpMyAdmin – MasterMind database setup view
+#### 🔐 phpMyAdmin – MasterMind database setup view
 ![Image](https://github.com/user-attachments/assets/ecad9937-9113-4a93-8c66-8f85131cd827)
 
 ### 4️⃣ Launch the Web Application
@@ -111,20 +111,27 @@ Follow these steps to set up and run the MasterMind web application on your loca
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Folder Structure
 
 MasterMind/
-├── assets/ # Images, CSS, JS
-├── certificate/ # Certificate generator files
-├── database_to_import/ # SQL file to import (flags & usernames)
-├── levels/ # Level_01 to Level_10
-├── Resources_Exploiting_Vulnerabilities/
-│ ├── Wordlists/
-│ ├── PHP_Backdoor/
-│ └── Other tools
-├── index.php # Entry point to the application
-
-📷 _Please attach a screenshot of the project folder structure_
+│
+├── Level_01/ to Level_10/       # Challenge folders for each level (01 to 10)
+│   ├── login.php                # Login portals for each level
+│   └── help.html                # Help Page with guidance and resources
+│
+├── database_to_import/         # Contains the SQL file to import into phpMyAdmin
+│   └── mastermind.sql
+│
+├── resources/                  # Tools, wordlists, and backdoors for some levels
+│   ├── wordlists/
+│   └── php_backdoor.php
+│
+├── certificate/                # Certificate files for successful players
+│
+├── sidebar.css                 # Styles for the navigation sidebar
+├── index.php                   # Entry point or home page
+├── README.md                   # Project documentation (this file)
+└── .gitignore                  # Optional file to exclude specific files from Git tracking
 
 ---
 
@@ -154,7 +161,7 @@ This project was inspired by platforms like:
 
 Upon completing all 10 levels, players receive a digital certificate to mark their accomplishment and inspire further study in cybersecurity.
 
-📷 _Please attach an image of the sample certificate here_
+![Image](https://github.com/user-attachments/assets/92931a67-ecd6-4b32-9dc9-4fde07d11c57)
 
 ---
 
