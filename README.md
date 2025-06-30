@@ -112,6 +112,8 @@ Follow these steps to set up and run the MasterMind web application on your loca
 
 ## 📂 Project Folder Structure
 
+```
+
 MasterMind/
 │
 ├── Level_01/ to Level_10/       # Challenge folders for each level (01 to 10)
@@ -131,6 +133,8 @@ MasterMind/
 ├── index.php                   # Entry point or home page
 ├── README.md                   # Project documentation (this file)
 └── .gitignore                  # Optional file to exclude specific files from Git tracking
+
+```
 
 ---
 
