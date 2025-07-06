@@ -95,7 +95,7 @@ Follow these steps to set up and run the MasterMind web application on your loca
 - Open browser → `http://127.0.0.1/dashboard/`
 - Click on **phpMyAdmin**
 - Create a new database named "mastermind"
-- Inside the project, go to "database_to_import" folder
+- Inside the project folder, go to "database_to_import" folder
 - Import the `mastermind.sql` file into the newly created `mastermind` database
 
 #### 🔐 phpMyAdmin – MasterMind database setup view
